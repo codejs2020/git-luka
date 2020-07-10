@@ -35,7 +35,7 @@ for (el of alphabet) { // radi mi samo for...of,a ne for...in
 // 10. zadatak
 const srpSlova = 'абвгдђжзијклљмнњопрстћуфхцчџш'.split('')
 
-// 11. zadatak     Nisam siguran na sta se misli u ovom zadatku
+// 11. zadatak     Nisam siguran da li se na ovo misli u ovom zadatku
 function ćirilica () {
   return 'абвгдђжзијклљмнњопрстћуфхцчџш'.split('')
 }
@@ -124,6 +124,6 @@ osobe.osoba4.automobil1 = automobil.automobil3
 osobe.osoba4.automobil2 = automobil.automobil4
 
 // 4. zadatak
-// Ne znam sta se trazi u ovom zadatku iskreno.
+// Ne znam sta se trazi u ovom zadatku iskreno. Mozda tipa ovo?
 const objekat1 = [automobil, osobe]
 /* eslint-disable no-unused-vars */
