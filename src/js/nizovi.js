@@ -5,7 +5,6 @@ const slova = ['s', 'a', 'e']
 const brojevi = [1, 2, 3]
 
 // 4. zadatak
-
 const niz = []
 const max = 10000000
 const min = 1000000
@@ -18,19 +17,21 @@ console.log(niz)
 
 // 5. zadatak
 const alphabet = 'abcdefghijklmnopqrstuvwxyz'
-function nizovi1 () {
+function nizovi1() {
   return alphabet[Math.floor(Math.random() * 25)]
 }
 for (let i = 0; i < 40; i++) {
   // console.log(nizovi1())
 }
+
 // 6. zadatak
 const niz2 = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i'], ['q', 't', 'u']]
 
 // 10. zadatak
 const srpSlova = 'абвгдђжзијклљмнњопрстћуфхцчџш'.split('')
+
 // 11. zadatak     Nisam siguran na sta se misli u ovom zadatku
-function ćirilica () {
+function ćirilica() {
   return 'абвгдђжзијклљмнњопрстћуфхцчџш'.split('')
 }
 // usage: ćirilica()
@@ -38,7 +39,6 @@ function ćirilica () {
 // OBJEKTI
 
 // 1. zadatak
-
 const osobe = {
   osoba1: {
     ime: 'Marko',
