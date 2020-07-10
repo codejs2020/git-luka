@@ -27,7 +27,23 @@ for (let i = 0; i < 40; i++) {
 // 6. zadatak
 const niz2 = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i'], ['q', 't', 'u']]
 
+// 7. zadatak
+let a = ''
+for (a of niz2) {
+  // console.log(a)
+}
+
+// 8.zadatak
+// Isti princip i za ostale nizove.
+for (let i = 0; i <= niz2.length; i++) {
+  // console.log(niz2[i])
+}
+
 // 9. zadatak
+for (let i = 0; i <= alphabet.length; i++) {
+  // console.log(alphabet[i])
+}
+
 let el = ''
 for (el of alphabet) { // radi mi samo for...of,a ne for...in
   // console.log(el)
