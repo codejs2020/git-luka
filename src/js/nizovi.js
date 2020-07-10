@@ -16,17 +16,22 @@ for (let i = 0; i < 50; i++) {
 console.log(niz)
 
 // 5. zadatak
-const alphabet = 'abcdefghijklmnopqrstuvwxyz'
-function nizovi1 () {
-  return alphabet[Math.floor(Math.random() * 25)]
-}
+const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
+const niz5 = []
+
 for (let i = 0; i < 40; i++) {
-  // console.log(nizovi1())
+  niz5[i] = alphabet[Math.floor(Math.random() * 25)]
 }
+// console.log(niz5)
 
 // 6. zadatak
 const niz2 = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i'], ['q', 't', 'u']]
 
+// 9. zadatak
+let el = ''
+for (el of alphabet) { // radi mi samo for...of,a ne for...in
+  // console.log(el)
+}
 // 10. zadatak
 const srpSlova = 'абвгдђжзијклљмнњопрстћуфхцчџш'.split('')
 
