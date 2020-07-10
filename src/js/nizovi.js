@@ -120,6 +120,6 @@ osobe.osoba4.automobil1 = automobil.automobil3
 osobe.osoba4.automobil2 = automobil.automobil4
 
 // 4. zadatak
-// Ne znam sta se trazi u ovom zadatky iskreno.
+// Ne znam sta se trazi u ovom zadatku iskreno.
 const objekat1 = [automobil, osobe]
 /* eslint-disable no-unused-vars */
