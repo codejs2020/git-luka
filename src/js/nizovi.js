@@ -108,8 +108,7 @@ const automobil = {
   automobil4: {
     marka: 'Mercedes',
     boja: 'Crvena',
-
-    brojVrata: '3'
+    brojVrata: 3
   },
   automobil5: {
     marka: 'Masserati',
