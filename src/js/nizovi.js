@@ -5,12 +5,12 @@ const slova = ['s', 'a', 'e']
 const brojevi = [1, 2, 3]
 
 // 3. zadatak
-const imena2 = 'Vladimir Branko Stefan Jelena Pavle Milan Jovana'.split(' ')
-const prezimena2 = 'Matic Jovic Rajic Milutinovic Buha Raden Kojic'.split(' ')
-const marke2 = 'Audi BMW Mercedes Lambo Ferrari Ford Chevy'.split(' ')
-const zanimanja2 = 'Doktor Advokat Profesor Sportista Programer Konobar Automehanicar'.split(' ')
-const visina2 = '1.78 1.87 1.76 1.91 1.65 1.69 1.71'.split(' ')
-const tezina2 = '78 84 91 68 81 89 90'.split(' ')
+const imena2 = ['Vladimir', 'Branko', 'Stefan', 'Jelena', 'Pavle', 'Milan', 'Jovana']
+const prezimena2 = ['Matic', 'Jovic', 'Rajic', 'Milutinovic', 'Buha', 'Raden', 'Kojic']
+const marke2 = ['Audi', 'BMW', 'Mercedes', 'Lambo', 'Ferrari', 'Ford', 'Chevy']
+const zanimanja2 = ['Doktor', 'Advokat', 'Profesor', 'Sportista', 'Programer', 'Konobar', 'Automehanicar']
+const visina2 = [1.78, 1.65, 1.87, 1.67, 1.97, 1.79, 1.83]
+const tezina2 = [78, 84, 91, 68, 81, 89, 90]
 
 // 4. zadatak
 const niz = []
