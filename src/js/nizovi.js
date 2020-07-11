@@ -19,7 +19,7 @@ console.log(niz)
 const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
 const niz5 = []
 
-for (let i = 0; i < 40; i++) {
+for (let i = 0; i < 200; i++) {
   niz5[i] = alphabet[Math.floor(Math.random() * 25)]
 }
 // console.log(niz5)
