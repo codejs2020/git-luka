@@ -26,7 +26,7 @@ while (brPokusaja > 0) {
     alert('Bravo! Pobedio si!')
     break
   }
-  brPokusaja = --brPokusaja
+  --brPokusaja
 }
 
 if (brPokusaja === 0) {

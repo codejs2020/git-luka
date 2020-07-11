@@ -51,11 +51,7 @@ for (el of alphabet) { // radi mi samo for...of,a ne for...in
 // 10. zadatak
 const srpSlova = 'абвгдђжзијклљмнњопрстћуфхцчџш'.split('')
 
-// 11. zadatak     Nisam siguran da li se na ovo misli u ovom zadatku
-function ćirilica () {
-  return 'абвгдђжзијклљмнњопрстћуфхцчџш'.split('')
-}
-// usage: ćirilica()
+// 11. zadatak
 
 // OBJEKTI
 
@@ -105,7 +101,7 @@ const osobe = {
 }
 
 // 2.zadatak
-const automobil = {
+const automobili = {
   automobil1: {
     marka: 'BMW',
     boja: 'Crna',
@@ -133,13 +129,13 @@ const automobil = {
   }
 }
 // 3. zadatak
-osobe.osoba1.automobil = automobil.automobil5
-osobe.osoba2.automobil = automobil.automobil1
-osobe.osoba3.automobil = automobil.automobil2
-osobe.osoba4.automobil1 = automobil.automobil3
-osobe.osoba4.automobil2 = automobil.automobil4
+osobe.osoba1.automobil = automobili.automobil5
+osobe.osoba2.automobil = automobili.automobil1
+osobe.osoba3.automobil = automobili.automobil2
+osobe.osoba4.automobil1 = automobili.automobil3
+osobe.osoba4.automobil2 = automobili.automobil4
 
 // 4. zadatak
-// Ne znam sta se trazi u ovom zadatku iskreno. Mozda tipa ovo?
-const objekat1 = [automobil, osobe]
+// Ne znam sta se trazi u ovom zadatku iskreno.
+
 /* eslint-disable no-unused-vars */
