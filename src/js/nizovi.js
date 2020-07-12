@@ -37,24 +37,24 @@ const niz2 = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i'], ['q', 't', 'u']
 
 // 7. zadatak
 let a = ''
-for (a of niz2) {
-  // console.log(a)
+for (a in niz2) {
+  // console.log(niz2[a])
 }
 
 // 8.zadatak
 // Isti princip i za ostale nizove.
-for (let i = 0; i <= niz2.length; i++) {
+for (let i = 0; i < niz2.length; i++) {
   // console.log(niz2[i])
 }
 
 // 9. zadatak
-for (let i = 0; i <= alphabet.length; i++) {
+for (let i = 0; i < alphabet.length; i++) {
   // console.log(alphabet[i])
 }
 
 let el = ''
-for (el of alphabet) { // radi mi samo for...of,a ne for...in
-  // console.log(el)
+for (el in alphabet) {
+  // console.log(alphabet[el])
 }
 // 10. zadatak
 const srpSlova = 'абвгдђжзијклљмнњопрстћуфхцчџш'.split('')
