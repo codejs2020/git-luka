@@ -147,3 +147,5 @@ osobe.osoba4.automobil2 = automobili.automobil4
 // Ne znam sta se trazi u ovom zadatku iskreno.
 
 /* eslint-disable no-unused-vars */
+
+// initial commit za granu2
