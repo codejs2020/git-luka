@@ -76,6 +76,10 @@ const srpSlova = 'абвгдђжзијклљмнњопрстћуфхцчџш'.sp
 const azbuka = 'абвгдђжзијклмнопрстћуфхцчш'.split('')
 const abeceda = 'abvgdđžzijklmnoprstćufhcčš'.split('')
 
+function konverter (rec) {
+
+}
+
 // OBJEKTI
 
 // 1. zadatak
