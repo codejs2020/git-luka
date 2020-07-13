@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
   <script>
+    const niz = []
+    const max = 10
+    const min = 1
 
+
+
+
+    for (let i = 0; i < 10; i++) {
+      let randomBroj = Math.floor(Math.random() * (max - min + 1)) + min
+
+      for (let j = 0; j < i; ++j) {
+
+        if (niz[j] == randomBroj) {
+          niz[j] = Math.floor(Math.random() * (max - min + 1)) + min
+
+        }
+
+      }
+    }
+
+    // eslint-disable-next-line no-console
+    console.log(niz)
   </script>
 </body>
+
 </html>

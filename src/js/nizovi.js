@@ -18,8 +18,21 @@ const max = 10000000
 const min = 1000000
 
 for (let i = 0; i < 50; i++) {
-  niz[i] = Math.floor(Math.random() * (max - min + 1)) + min
+  const broj = Math.floor(Math.random() * (max - min + 1)) + min
+  let provera = true
+
+  for (let j = 0; j < i; j++) {
+    if (niz[j] === broj) {
+      provera = false
+    }
+  }
+  if (provera === false) {
+    i--
+    continue
+  }
+  niz[i] = broj
 }
+
 // eslint-disable-next-line no-console
 console.log(niz)
 
@@ -60,6 +73,8 @@ for (el in alphabet) {
 const srpSlova = 'абвгдђжзијклљмнњопрстћуфхцчџш'.split('')
 
 // 11. zadatak
+const azbuka = 'абвгдђжзијклмнопрстћуфхцчш'.split('')
+const abeceda = 'abvgdđžzijklmnoprstćufhcčš'.split('')
 
 // OBJEKTI
 
