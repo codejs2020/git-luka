@@ -18,8 +18,21 @@ const max = 10000000
 const min = 1000000
 
 for (let i = 0; i < 50; i++) {
-  niz[i] = Math.floor(Math.random() * (max - min + 1)) + min
+  const broj = Math.floor(Math.random() * (max - min + 1)) + min
+  let provera = true
+
+  for (let j = 0; j < i; j++) {
+    if (niz[j] === broj) {
+      provera = false
+    }
+  }
+  if (provera === false) {
+    i--
+    continue
+  }
+  niz[i] = broj
 }
+
 // eslint-disable-next-line no-console
 console.log(niz)
 
@@ -60,6 +73,8 @@ for (el in alphabet) {
 const srpSlova = 'абвгдђжзијклљмнњопрстћуфхцчџш'.split('')
 
 // 11. zadatak
+const cirilica = 'а,б,в,г,д,ђ,ж,з,и,ј,к,л,љ,м,н,њ,о,п,р,с,т,ћ,у,ф,х,ц,ч,џ,ш'.split(',')
+const latinica = 'a,b,v,g,d,đ,ž,z,i,j,k,l,lj,m,n,nj,o,p,r,s,t,ć,u,f,h,c,č,dž,š'.split(',')
 
 // OBJEKTI
 
@@ -147,3 +162,5 @@ osobe.osoba4.automobil2 = automobili.automobil4
 // Ne znam sta se trazi u ovom zadatku iskreno.
 
 /* eslint-disable no-unused-vars */
+
+// initial commit za granu2
