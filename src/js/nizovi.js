@@ -73,12 +73,8 @@ for (el in alphabet) {
 const srpSlova = 'абвгдђжзијклљмнњопрстћуфхцчџш'.split('')
 
 // 11. zadatak
-const azbuka = 'абвгдђжзијклмнопрстћуфхцчш'.split('')
-const abeceda = 'abvgdđžzijklmnoprstćufhcčš'.split('')
-
-function konverter (rec) {
-
-}
+const cirilica = 'а,б,в,г,д,ђ,ж,з,и,ј,к,л,љ,м,н,њ,о,п,р,с,т,ћ,у,ф,х,ц,ч,џ,ш'.split(',')
+const latinica = 'a,b,v,g,d,đ,ž,z,i,j,k,l,lj,m,n,nj,o,p,r,s,t,ć,u,f,h,c,č,dž,š'.split(',')
 
 // OBJEKTI
 
